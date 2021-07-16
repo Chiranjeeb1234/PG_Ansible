@@ -1,0 +1,9 @@
+[web]
+frontend ansible_host=localhost
+
+[web:vars]
+ansible_ssh_user=mishrajeebgmail
+ansible_ssh_pass='bgmail0A@sjfrt'
+ansible_port=42006
+ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+ansible_become_pass='bgmail0A@sjfrt'
